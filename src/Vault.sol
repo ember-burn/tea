@@ -1,4 +1,10 @@
-// SPDX-License-Identifier: Unlicense
-pragma solidity 0.8.10;
+// SPDX-License-Identifier: UNLICENSED
+pragma solidity 0.8.11;
 
-contract Contract {}
+contract Vault {
+    function init() public {}
+    function fractionalize() public {}
+    function start() public {}
+    function bid() public {}
+    function claimFees() public {}
+}
